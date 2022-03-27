@@ -7,6 +7,7 @@ import AuthorMySql from './AuthorMySql';
 function App() {
     return (
         <div className="App">
+            <TodoMySql />
             <AuthorMySql />
         </div>
     );
